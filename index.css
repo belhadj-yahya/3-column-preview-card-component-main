@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    
+    display: flex;
+    justify-content: center;
+    font-size:15px;
+}
+
+.yahya{
+    background-color: hsl(31, 77%, 52%);
+     position: absolute; 
+     top: 20%;
+     left: 22%; 
+     border-radius: 12px 0 0 12px;
+     .image-orange {
+        top: 10%;
+        left: 14%;
+    }
+}
+.yahya .input-1{
+     background-color: hsl(31, 77%, 52%);
+     position:relative;
+     top: 308px;
+    left: 34px;
+    z-index: 2;   
+}
+.lol{
+  background-color: hsl(184, 100%, 22%);
+   position: absolute; 
+  top: 20%;
+  left: 41%;
+  padding-left: 10px;
+  .image-laigh-blue{
+    top: 10%;
+    left: 14%;
+  }
+}
+.lol .input-2{
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+    top: 308px;
+    left: 34px;
+    z-index: 2;
+}
+.voli{
+ background-color: hsl(179, 100%, 13%);
+  position: absolute; 
+ top: 20%;
+ left: 60%; 
+ border-radius: 0 12px 12px 0;
+ padding-left: 17px;
+ 
+ .image-dark-blue{
+    top: 10%;
+    left: 14%;
+ }
+}
+.voli .input-3{
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+    top: 308px;
+    left: 34px;
+    z-index: 2;
+}
+.yahya, .lol, .voli{
+    
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    /* color: white; */
+    color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    width: 19%;
+    height: 60%;
+}
+    
+.image-orange, .image-laigh-blue, .image-dark-blue{
+    width: 46px;
+    height: 32px;
+    position: absolute;
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 36px;
+    color: white;
+}
+.yahya .input-1, .lol .input-2, .voli .input-3{
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px 40px 40px 40px;
+    width: 150px;
+    height: 60px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+@media screen and (max-width: 375px){
+    .yahya{
+        width: 80%;
+        position: absolute;
+        top: 9%;
+        left: 31px;
+        border-radius: 8px 8px 0 0;
+    }
+    .lol{
+        width: 80%;
+        position: absolute;
+        top: 69%;
+        left: 31px;
+        border-radius: 0;
+    }
+    .voli{
+        width: 80%;
+        position: absolute;
+        top: 129%;
+        left: 31px;
+        border-radius: 0 0 8px 8px;
+        margin-bottom: 50%;
+    }
+    footer{
+        width: 2px;
+        height: 2px;
+        margin: -80px;
+        position: absolute;
+        top: 205%;
+        flex-basis: fit-content;
+        background-color: white;
+        z-index: 5;
+        padding: 75px;
+    
+    }
+
+}
+
